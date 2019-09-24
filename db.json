@@ -2,8 +2,8 @@
 	"sample": {
 		"result": "This is sample test result api."
 	},
-	"Benefit":{
-		[
+	"get-benefit":{
+		"benefit": [
 		{"Type":1,"Img":"img1"},
 		{"Type":1,"Img":"img2"},
 		{"Type":1,"Img":"img3"},
