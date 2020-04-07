@@ -1,36 +1,42 @@
 {
-	"sample": {
-		"result": "This is sample test result api."
-	},
-	"get-benefit":{
-		"benefit": [
-		{"Type":1,"Img":"img1"},
-		{"Type":1,"Img":"img2"},
-		{"Type":1,"Img":"img3"},
-		{"Type":2,"Img":"img1"},
-		{"Type":2,"Img":"img2"},
-		{"Type":2,"Img":"img3"},
-		{"Type":3,"Img":"img1"},
-		{"Type":3,"Img":"img2"},
-		{"Type":3,"Img":"img3"}
-		]
-	},
-	"obj2": {
-		"Title": "This IS Title",
-		"Description": "What is life",
-		"Image": [
-			{
-				"ImageUrl": "this is link 1",
-				"Desc": "whatever is this"
-			},
-			{
-				"ImageUrl": "this is link 2",
-				"Desc": "whatever is this"
-			},
-			{
-				"ImageUrl": "this is link 3",
-				"Desc": "whatever is this"
-			}
-		]
-	}
+    "dataList": [
+        {
+            "requestNumber": "1234567890",
+            "requestor": "Mikhael",
+            "createdDate": "07 Apr 2020",
+            "amount": "450,000",
+            "project": "Internal",
+            "numberOfBills": 2,
+            "status": "Waiting for approval"
+        },
+        {
+            "requestNumber": "1467827798",
+            "requestor": "Cindy",
+            "createdDate": "07 Apr 2020",
+            "amount": "150,000",
+            "project": "Internal",
+            "numberOfBills": 1,
+            "status": "Waiting for approval"
+        },
+        {
+            "requestNumber": "73261738461",
+            "requestor": "Matius",
+            "createdDate": "07 Apr 2020",
+            "amount": "1,450,000",
+            "project": "Internal",
+            "numberOfBills": 4,
+            "status": "Waiting for approval"
+        },
+        {
+            "requestNumber": "7163255948",
+            "requestor": "Markus",
+            "createdDate": "07 Apr 2020",
+            "amount": "3,460,000",
+            "project": "Internal",
+            "numberOfBills": 1,
+            "status": "Waiting for approval"
+        }
+    ],
+    "errorMessage": "",
+    "isError": false
 }
