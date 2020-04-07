@@ -1,5 +1,6 @@
 {
-    "dataList": [
+    "claim-request":{
+     "dataList": [
         {
             "requestNumber": "1234567890",
             "requestor": "Mikhael",
@@ -38,5 +39,6 @@
         }
     ],
     "errorMessage": "",
-    "isError": false
+    "isError": false   
+    }
 }
